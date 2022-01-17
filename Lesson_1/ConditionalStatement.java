@@ -2,7 +2,7 @@ public class ConditionalStatement {
     public static void main(String[] args) {
         byte age = (byte) 99;
         boolean isMale = false;
-        float height = 160f;
+        float height = 1.60f;
         char nameFirstLetter = 'D';
 
         if(age > 20) {
@@ -17,13 +17,13 @@ public class ConditionalStatement {
             System.out.println("Женщина.");
         }
 
-        if (height < 1.80) {
+        if(height < 1.80) {
             System.out.println("Не ел растишку.");
         } else {
             System.out.println("Прирождённый баскетболист.");
         }
 
-        if (nameFirstLetter == 'M') {
+        if(nameFirstLetter == 'M') {
             System.out.println("Марк Твен?");            
         } else if(nameFirstLetter == 'I') {
             System.out.println("Iron?");
